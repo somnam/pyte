@@ -92,5 +92,10 @@ if &t_Co >= 256 || has("gui_running")
     hi GitGutterChange       ctermbg=110  ctermfg=15 cterm=NONE guibg=#b0c0d0 guifg=#ffffff gui=bold
     hi GitGutterDelete       ctermbg=110  ctermfg=15 cterm=NONE guibg=#b0c0d0 guifg=#ffffff gui=bold
     hi GitGutterChangeDelete ctermbg=110  ctermfg=15 cterm=NONE guibg=#b0c0d0 guifg=#ffffff gui=bold
+
+    hi SignColumn        cterm=NONE ctermbg=110 gui=NONE guibg=#b0c0d0
+    hi SignifySignAdd    cterm=bold ctermbg=110 ctermfg=28 gui=bold guibg=#b0c0d0 guifg=#007600
+    hi SignifySignDelete cterm=bold ctermbg=110 ctermfg=124 gui=bold guibg=#b0c0d0 guifg=#9e0000
+    hi SignifySignChange cterm=bold ctermbg=110 ctermfg=166 gui=bold guibg=#b0c0d0 guifg=#c63c00
 endif
 
