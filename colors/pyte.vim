@@ -57,7 +57,7 @@ if &t_Co >= 256 || has("gui_running")
     hi CursorLineNr   ctermbg=110   ctermfg=15   cterm=NONE  guibg=#b1c1d1 guifg=#ffffff gui=NONE
     hi Visual         ctermbg=7     ctermfg=8    cterm=NONE  guibg=#e0e0e0 guifg=#404850 gui=NONE
     hi VisualNOS      ctermbg=7     ctermfg=8    cterm=bold  guibg=#e0e0e0 guifg=#404850 gui=bold
-    hi Pmenu          ctermbg=NONE  ctermfg=NONE cterm=NONE  guibg=NONE    guifg=NONE    gui=NONE
+    hi Pmenu          ctermbg=NONE  ctermfg=NONE cterm=NONE  guifg=#404850 guibg=#e0e0e0
     hi PmenuSbar      ctermbg=7     ctermfg=NONE cterm=NONE  guibg=#8090a0 guifg=NONE    gui=NONE
     hi PmenuSel       ctermbg=147   ctermfg=NONE cterm=NONE  guibg=#b0b0ff guifg=NONE    gui=NONE
     hi PmenuThumb     ctermbg=0     ctermfg=NONE cterm=NONE  guibg=#202020 guifg=NONE    gui=NONE
@@ -103,5 +103,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Flake8_PyFlake    ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
     hi Flake8_Complexity ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
     hi Flake8_Naming     ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
+
+    hi link QuickFixLine Normal
 endif
 
