@@ -96,6 +96,12 @@ if &t_Co >= 256 || has("gui_running")
     hi SignColumn        cterm=NONE ctermbg=110 gui=NONE guibg=#b0c0d0
     hi SignifySignAdd    cterm=bold ctermbg=110 ctermfg=28 gui=bold guibg=#b0c0d0 guifg=#007600
     hi SignifySignDelete cterm=bold ctermbg=110 ctermfg=124 gui=bold guibg=#b0c0d0 guifg=#9e0000
-    hi SignifySignChange cterm=bold ctermbg=110 ctermfg=166 gui=bold guibg=#b0c0d0 guifg=#c63c00
+    hi SignifySignChange cterm=bold ctermbg=110 ctermfg=166 gui=bold guibg=#b0c0d0 guifg=#d78700
+
+    hi Flake8_Error      cterm=bold ctermbg=110 ctermfg=124 gui=bold guibg=#b0c0d0 guifg=#9e0000
+    hi Flake8_Warning    cterm=bold ctermbg=110 ctermfg=166 gui=bold guibg=#b0c0d0 guifg=#d78700
+    hi Flake8_PyFlake    ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
+    hi Flake8_Complexity ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
+    hi Flake8_Naming     ctermfg=15 ctermbg=110 gui=bold guifg=#ffffff guibg=#b0c0d0
 endif
 
